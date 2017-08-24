@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Mali King CST352</title>
     </head>
     <body>
-        <h1>Mali King's CST352</h1>
+        <h1>Mali King's CST-352</h1>
     </body>
 </html>
