@@ -25,6 +25,7 @@
 
         #content {
             max-width: 700px;
+            margin: auto;
         }
 
         #spring {
@@ -39,22 +40,33 @@
 
         #spring {
             border: 2px solid;
+            background: url('./img/spring.png');
             border-radius-top-left: 25px;
         }
 
         #summer {
             border: 2px solid;
+            background: url('./img/summer.png');
+
             border-radius-top-right: 25px;
         }
 
         #fall {
             border: 2px solid;
+            background: url('./img/fall.png');
+
             border-radius-bottom-left: 25px;
         }
 
         #winter {
             border: 2px solid;
+            background: url('./img/winter.jpg');
+
             border-radius-bottom-right: 25px;
+        }
+
+        .seasons {
+            text-align: center;
         }
 
         .seasons,
@@ -71,26 +83,21 @@
     </header>
     <section id="content">
         <div id="top-row">
-            <div class="seasons">
-
-                <img id="spring" src="./img/spring.png">
+            <div class="seasons" id="spring">
                 <h3>Spring</h3>
 
             </div>
-            <div class="seasons">
-                <img id="summer" src="./img/summer.png">
+            <div class="seasons" id="summer">
                 <h3>Summer</h3>
 
             </div>
         </div>
         <div id="bottom-row">
-            <div class="seasons">
-                <img id="fall" src="./img/fall.png">
+            <div class="seasons" id="fall">
                 <h3>Autumn</h3>
 
             </div>
-            <div class="seasons">
-                <img id="winter" src="./img/winter.jpg">
+            <div class="seasons" id="winter">
                 <h3>Winter</h3>
 
             </div>
