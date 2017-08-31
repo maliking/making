@@ -7,11 +7,20 @@
     <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
 
     <style>
+        body {
+            background-color: #000;
+        }
+
         h1 {
             color: yellow;
             font-size: 26px;
             font-family: 'Yellowtail', script;
             text-align: center;
+        }
+
+        h3 {
+            color: white;
+            font-family: 'Yellowtail', script;
         }
 
         #content {
@@ -29,23 +38,30 @@
         }
 
         #spring {
+            border: 2px solid;
+
             border-radius-top-left: 5px;
         }
 
         #summer {
+            border: 2px solid;
+
             border-radius-top-right: 5px;
         }
 
         #fall {
+            border: 2px solid;
+
             border-radius-bottom-left: 5px;
         }
 
         #winter {
+            border: 2px solid;
+
             border-radius-bottom-right: 5px;
         }
 
-        #top-row,
-        #content {
+        .seasons {
             display: inline-block;
         }
     </style>
@@ -58,18 +74,27 @@
     <section id="content">
         <div id="top-row">
             <div class="seasons">
+
                 <img id="spring" src="./img/spring.png">
+                <h3>Spring</h3>
+
             </div>
             <div class="seasons">
                 <img id="summer" src="./img/summer.png">
+                <h3>Summer</h3>
+
             </div>
         </div>
         <div id="bottom-row">
             <div class="seasons">
                 <img id="fall" src="./img/fall.png">
+                <h3>Autumn</h3>
+
             </div>
             <div class="seasons">
                 <img id="winter" src="./img/winter.jpg">
+                <h3>Winter</h3>
+
             </div>
         </div>
 
