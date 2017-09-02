@@ -1,0 +1,120 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Mukta Mahee', sans-serif;
+    background-image: url('../img/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 2px 2px 4px #333;
+    color: #fff;
+    margin: 0 0 60px;
+}
+
+h1 {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: #ffdb50;
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+
+nav {
+    text-align: center;
+    padding: 0 50px 30px 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.95em;
+    padding: 20px;
+}
+
+nav a:hover {
+    text-decoration: overline;
+    text-decoration-color: #ffdb50;
+    font-size: 2em;
+    transition: 0.3s;
+}
+
+#active {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #ffdb50;
+}
+
+img#headshot {
+    width: 240px;
+    float: left;
+}
+
+img#csumb-logo {
+    width: 80px;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+section {
+    max-width: 700px;
+    margin: auto;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+aside {
+    width: 400px;
+    padding: 30px;
+    float: right;
+}
+
+aside h3 {
+    font-size: 20px;
+}
+
+#main-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+table {
+    margin: 0px auto;
+    text-align: center;
+}
+
+td, th {
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.item {
+    color: #ffdb50;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom:-80px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    overflow:hidden;
+}
