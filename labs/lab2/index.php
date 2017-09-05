@@ -7,15 +7,20 @@
     <body>
         <?php
             $symbol = "grapes";
-            $randomNumber = rand(0,5);
+            $randomNumber = rand(0,2);
 
-            echo $randomNumber;
-            echo '<img src="img/$symbol.png" alt=$symbol title=$symbol width="70" />';
-            echo '<img src="img/$symbol.png" alt=$symbol title=$symbol width="70" />';
-            echo '<img src="img/$symbol.png" alt=$symbol title=$symbol width="70" />';
+            if ($randomNumber == 0) {
+                $symbol = "cherry";
+            }
+            else if ($randomNumber == 1) {
+                $symbol = "seven";
+            }
+            else {
+                $symbol = "lemon";
+            }
+
+            echo "<img src='img/$symbol.png' alt=$symbol title=$symbol width='70' />";
         ?>
 
-        <img src="img/orange.png" alt="orange" title="Orange" width="70" />
-        <img src="img/orange.png" alt="orange" title="Orange" width="70" />
     </body>
 </html>
