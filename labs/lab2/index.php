@@ -1,26 +1,25 @@
+<?php
+    include 'inc/functions.php';
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title> 777 Slot Machine </title>
         <meta charset="utf-8"/>
+        <title> 777 Slot Machine </title>
+        <style>
+            @import url("css/styles.css");
+        </style>
     </head>
     <body>
-        <?php
-            $symbol = "grapes";
-            $randomNumber = rand(0,2);
-
-            if ($randomNumber == 0) {
-                $symbol = "cherry";
-            }
-            else if ($randomNumber == 1) {
-                $symbol = "seven";
-            }
-            else {
-                $symbol = "lemon";
-            }
-
-            echo "<img src='img/$symbol.png' alt=$symbol title=$symbol width='70' />";
-        ?>
-
+        <div id="main">
+            <?php
+                play();
+            ?>
+            <form>
+                <input type="submit" value="Spin!"  />
+            </form>
+        </div>
     </body>
 </html>
+
