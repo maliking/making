@@ -1,0 +1,122 @@
+body {
+    background-image: url('../img/back.jpg');
+    background-size: cover;
+}
+
+#main {
+    width: 656.5px;
+    margin: 40px auto 0px auto;
+    display: block;
+    background: url('../img/machine.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 623.83px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 656.5px;
+
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    font-family: 'McLaren', sans-serif;
+    padding: 10px 30px;
+    background-color: #c64832;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 100;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    cursor: pointer;
+
+}
+
+input:hover {
+    background-color: #a53728;
+}
+
+input:active {
+    color: #eeeeee;
+}
+
+.robot {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 60px;
+    left: -60px;
+}
+
+h1 {
+    font-family: 'Barrio', sans-serif;
+    text-align: center;
+    font-size: 2.6em;
+    position: relative;
+    top: 13px;
+    left: 2px;
+    color: #8dc63f;
+}
+
+h2 {
+    font-family: 'McLaren', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 170px;
+    font-size: 1.7em;
+}
+
+h3 {
+    font-family: 'McLaren', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 600px;
+    width: 656.5px;
+    font-size: 2em;
+}
+
+#rare {
+    color: yellow;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+#very-rare {
+    color: orange;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+#super-rare {
+    color: aquamarine;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+#rare-color {
+    color: #33FFBD;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+#very-rare-color {
+    color: #75FF33;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+#super-rare-color {
+    color: #33FCFF;
+    text-shadow: 1px 1px 20px #000000;
+}

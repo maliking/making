@@ -6,7 +6,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title> 777 Slot Machine </title>
+        <title> Mali King | 777 Slot Machine </title>
         <style>
             @import url("css/styles.css");
         </style>
