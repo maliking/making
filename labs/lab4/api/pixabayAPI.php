@@ -13,17 +13,17 @@ function getImageURLs($keyword, $orientation="horizontal") {
         "cache-control: no-cache"
       ),
     ));
-    
+
     $jsonData = curl_exec($curl);
     $data = json_decode($jsonData, true); //true makes it an array!
-    
+
     $imageURLs = array();
     for ($i = 0; $i < 99; $i++) {
     $imageURLs[] = $data['hits'][$i]['webformatURL'];
     }
     $err = curl_error($curl);
     curl_close($curl);
-    
+
     return $imageURLs;
 }
 
