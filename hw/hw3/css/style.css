@@ -1,0 +1,72 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
+    text-shadow: 2px 2px #555;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Patua One', sans-serif;
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px #555;
+}
+
+.form-horizontal {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pet_row {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.pet_column {
+    padding: 20px;
+    max-height: 180px;
+    overflow-y: scroll;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.pet_image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    margin-top: 0px;
+}
+
+#pets_container {
+    margin-top: 30px;
+}
+
+.top {
+    background-color: #fff;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.bottom {
+    background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
+    border-top: 1px #eee solid;
+}
+
+.btn-block {
+    margin-top: 20px;
+}

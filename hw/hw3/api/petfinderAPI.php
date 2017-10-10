@@ -1,5 +1,6 @@
 <?php
-function getImageURLs($animal, $age, $sex, $size, $location="93940") {
+function getImageURLs($animal, $age, $size, $sex, $location="93940") {
+
     $key = '312878abcea99018acfbe7e21c2bae04';
     $curl = curl_init();
     curl_setopt_array($curl, array(
@@ -23,7 +24,7 @@ function getImageURLs($animal, $age, $sex, $size, $location="93940") {
     }
    // $pet_array = json_decode($pet_json, true);
     $pet_array = json_decode($pet_json);
-
+    $pets = array();
 
     for ($i = 0; $i < count($pet_array->petfinder->pets->pet) ; $i++) {
         $pets[$i]['img_url'] = $pet_array->petfinder->pets->pet[$i]->media->photos->photo[1]->{'$t'};
