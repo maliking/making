@@ -19,24 +19,10 @@ function getRandomQuote () {
     $record = $stmt -> fetch();
 
     echo "<em>" . $record['quote'] . "</em><br>";
-    echo "- " . "<a target='authorInfo' href='getAuthorInfo.php?authorId=" . $record['authorId'] . "'><h2>" . $record['firstName'] . " " . $record['lastName'] . "</h2></a>";
-
+    echo "<div id='author'>- " . "<a target='authorInfo' href='getAuthorInfo.php?authorId="
+        . $record['authorId'] . "'><h2>" . $record['firstName']
+        . " " . $record['lastName'] . "</h2></a></div>";
 }
-// $connection = mysql_connect($servername, $username, $password);
-// if (!$connection) {
-//     die("Unable to connect to MySQL: " . mysql_error());
-// }
-
-// mysql_select_db($dbname)
-//     or die("Unable to select database: " . mysql_error());
-
-// $query = "SELECT quote, firstName, lastName FROM q_quote INNER JOIN q_author ON q_quote.authorId=q_author.authorId ORDER BY rand()";
-// $result = mysql_query($query);
-// if (!$result) die ("Database access failed: " . mysql_error());
-
-// $row = mysql_fetch_assoc($result);
-// echo $row['quote'] . "<br>";
-// echo "- <a href='#'>" . $row['firstName'] . " " . $row['lastName'] . "</a>";
 
 ?>
 
@@ -51,6 +37,7 @@ function getRandomQuote () {
     </style>
     <body>
     <div class="wrapper">
+        <h1 id="title">Quote Generator</h1>
         <?=getRandomQuote()?>
         <br>
         <iframe name="authorInfo" width="600" height="400"></iframe>

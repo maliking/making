@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Roboto+Slab');
 body {
-    margin-top: 50px;
     font-family: 'Cabin', sans-serif;
     text-align: center;
+    background-image: url('../img/back.png');
 }
 
 h1 {
     text-align: left;
     font-size: 1.2em;
     font-family: 'Roboto Slab', serif;
+}
+
+h1#title {
+    text-align: center;
+    font-size: 1.6em;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 h2 {
@@ -23,8 +29,7 @@ p {
 
 .wrapper {
     width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px auto 0px auto;
 }
 
 img {
@@ -40,14 +45,19 @@ img {
 }
 
 em {
-    font-size: 1.8em;
+    font-size: 1.4em;
     font-family: 'Roboto Slab', sans-serif;
 }
 
 iframe {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 a {
     text-decoration-style: dotted;
+}
+
+#author {
+    margin-top: 10px;
+    text-align: right;
 }
