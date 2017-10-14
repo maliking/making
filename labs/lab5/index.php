@@ -19,7 +19,7 @@ function getRandomQuote () {
     $record = $stmt -> fetch();
 
     echo "<em>" . $record['quote'] . "</em><br>";
-    echo "<a target='authorInfo' href='getAuthorInfo.php?authorId=" . $record['authorId'] . "'>-" . $record['firstName'] . " " . $record['lastname'] . "</a>";
+    echo "- " . "<a target='authorInfo' href='getAuthorInfo.php?authorId=" . $record['authorId'] . "'><h2>" . $record['firstName'] . " " . $record['lastName'] . "</h2></a>";
 
 }
 // $connection = mysql_connect($servername, $username, $password);
@@ -44,11 +44,16 @@ function getRandomQuote () {
     <head>
         <title> Lab 5 | Mali King </title>
     </head>
+    <link rel="stylesheet" href="css/style.css">
+
     <style>
 
     </style>
     <body>
-
-
+    <div class="wrapper">
+        <?=getRandomQuote()?>
+        <br>
+        <iframe name="authorInfo" width="600" height="400"></iframe>
+    </div>
     </body>
 </html>
