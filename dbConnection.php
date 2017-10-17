@@ -13,6 +13,8 @@ function getDatabaseConnection($dbname='quotes') {
         $username = $url["b7506be644b2df"];
         $password = $url["b8b7b36d"];
         $db = substr($url["heroku_ead1f57be8a54a6"], 1);
+    } else {
+        echo "not connected to heroku";
     }
     $conn = new PDO("mysql:host=$server;dbname=$db", $username, $password);
     $conn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
