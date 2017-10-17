@@ -16,7 +16,16 @@ function getDatabaseConnection($dbname='quotes') {
         $db = substr($url["heroku_ead1f57be8a54a6"], 1);
     }
 
+    try {
     $dbConn = new PDO("mysql:host=$server;dbname=$db", $username, $password);
+    foreach($dbh->query('SELECT * from FOO') as $row) {
+        print_r($row);
+    }
+    $dbh = null;
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
+}
     $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     return $dbConn;
