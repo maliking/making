@@ -7,7 +7,7 @@ function getDatabaseConnection($dbname='quotes') {
     $password = '';
 
     // Heroku Connection
-    if  (strpos($_SERVER['HTTP_HOST'], 'making-cst352') !== false) { // if the server starts with making-cst352.herokuapp.com, run
+    if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) { // if the server starts with making-cst352.herokuapp.com, run
         $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
         $server = $url["us-cdbr-iron-east-05.cleardb.net"];
