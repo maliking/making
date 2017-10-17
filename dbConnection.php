@@ -18,7 +18,7 @@ function getDatabaseConnection($dbname='quotes') {
 
     try {
     $dbConn = new PDO("mysql:host=$server;dbname=$db", $username, $password);
-    foreach($dbh->query('SELECT * from FOO') as $row) {
+    foreach($dbh->query('SELECT * from q_quote') as $row) {
         print_r($row);
     }
     $dbh = null;
