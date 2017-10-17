@@ -21,9 +21,8 @@ $cfg['blowfish_secret'] = ''; /* YOU MUST FILL IN THIS FOR COOKIE AUTH! */
  */
 $i = 0;
 
-
 /**
- * First server
+ * First server  -> MySQL in Cloud 9
  */
 $i++;
 /* Authentication type */
@@ -33,7 +32,9 @@ $cfg['Servers'][$i]['host'] = 'localhost';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = true;
 
-
+/**
+ * Second server  -> MySQL in Heroku
+ */
 $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'config';
@@ -43,6 +44,8 @@ $cfg['Servers'][$i]['user'] = 'b7506be644b2df';
 $cfg['Servers'][$i]['password'] = 'b8b7b36d';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = true;
+
+
 
 /**
  * phpMyAdmin configuration storage settings.

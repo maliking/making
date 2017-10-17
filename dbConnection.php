@@ -1,13 +1,13 @@
 <?php
-function getDatabaseConnection() {
+function getDatabaseConnection($dbname='quotes') {
     // cloud9
-    $host = '127.0.0.1';
+    $host = 'localhost';
     $dbname = 'quotes';
     $username = 'maliking';
     $password = '';
 
     // Heroku Connection
-    if  (strpos($_SERVER['HTTP_HOST'], 'making-cst352.herokuapp.com') !== false) { // if the server starts with making-cst352.herokuapp.com, run
+    if  (strpos($_SERVER['HTTP_HOST'], 'making-cst352') !== false) { // if the server starts with making-cst352.herokuapp.com, run
         $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
         $host = $url["us-cdbr-iron-east-05.cleardb.net"];
         $dbname = substr($url["heroku_ead1f57be8a54a6"], 1);
