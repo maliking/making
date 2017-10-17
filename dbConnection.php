@@ -10,7 +10,7 @@ function getDatabaseConnection($dbname='quotes') {
         $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
         $server = $url["us-cdbr-iron-east-05.cleardb.net"];
         $username = $url["b7506be644b2df"];
-        $password = $url["b8b7b36d"];
+        $password = $url["506d2632bfcd11c"];
         $db = substr($url["heroku_ead1f57be8a54a6"], 1);
     }
 
