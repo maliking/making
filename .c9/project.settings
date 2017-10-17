@@ -77,6 +77,14 @@
         "configs": {
             "@inited": "true",
             "json()": {
+                "Apache & PHP": {
+                    "command": "",
+                    "debug": false,
+                    "default": true,
+                    "name": "Apache & PHP",
+                    "runner": "Apache httpd (PHP, HTML)",
+                    "toolbar": true
+                },
                 "PHP": {
                     "command": "",
                     "default": true,
