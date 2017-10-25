@@ -8,7 +8,7 @@
         <h3>Homework</h3>
         <ul>
         <?php
-        for ($i = 1; $i < 11; $i++) {
+        for ($i = 1; $i < 6; $i++) {
             echo "<li>";
             echo "<a href='https://making-cst352.herokuapp.com/hw/hw" . $i . "/index.php'>";
             echo "Homework " . $i . "</a>";
@@ -17,6 +17,16 @@
         ?>
         </ul>
         <h3>Labs</h3>
-        <h3>Exams</h3>
+        <ul>
+        <?php
+        for ($i = 1; $i < 6; $i++) {
+            echo "<li>";
+            echo "<a href='https://making-cst352.herokuapp.com/labs/lab" . $i . "/index.php'>";
+            echo "Lab " . $i . "</a>";
+            echo "</li>";
+        }
+        ?>
+        </ul>
+
     </body>
 </html>
