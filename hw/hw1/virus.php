@@ -12,10 +12,10 @@
 <body>
     <header>
         <nav>
-            <a href="index.html"><i class="fa fa-home"></i> Home</a>
-            <a id="active" href="virus.html">Virus</a>
-            <a href="adware.html">Adware</a>
-            <a href="spyware.html">Spyware</a>
+            <a href="index.php"><i class="fa fa-home"></i> Home</a>
+            <a id="active" href="virus.php">Virus</a>
+            <a href="adware.php">Adware</a>
+            <a href="spyware.php">Spyware</a>
         </nav>
         <h1>Virus</h1>
     </header>

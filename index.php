@@ -8,7 +8,7 @@
         <h3>Homework</h3>
         <ul>
         <?php
-        for ($i = 0; $i < 10; $i++) {
+        for ($i = 1; $i < 11; $i++) {
             echo "<li>";
             echo "<a href='https://making-cst352.herokuapp.com/hw/hw" . $i . "/index.php'>";
             echo "Homework " . $i . "</a>";
