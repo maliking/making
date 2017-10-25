@@ -2,6 +2,12 @@
 <html>
     <head>
         <title>Mali King CST352</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <style>
+            body {
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+        </style>
     </head>
     <body>
         <h1>Mali King's CST-352</h1>
