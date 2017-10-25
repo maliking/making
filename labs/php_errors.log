@@ -1,0 +1,29 @@
+[24-Oct-2017 20:27:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'quote'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/labs/lab7/loginProcess.php(7): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[24-Oct-2017 20:28:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.q_admin' doesn't exist' in /home/ubuntu/workspace/labs/lab7/loginProcess.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab7/loginProcess.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab7/loginProcess.php on line 17
+[24-Oct-2017 20:28:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.q_admin' doesn't exist' in /home/ubuntu/workspace/labs/lab7/loginProcess.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab7/loginProcess.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab7/loginProcess.php on line 17
+[25-Oct-2017 17:53:22 UTC] PHP Warning:  include(../../dbConnectino.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/lab6/index.php on line 2
+[25-Oct-2017 17:53:22 UTC] PHP Stack trace:
+[25-Oct-2017 17:53:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab6/index.php:0
+[25-Oct-2017 17:53:22 UTC] PHP Warning:  include(): Failed opening '../../dbConnectino.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/lab6/index.php on line 2
+[25-Oct-2017 17:53:22 UTC] PHP Stack trace:
+[25-Oct-2017 17:53:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab6/index.php:0
+[25-Oct-2017 17:53:22 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/labs/lab6/index.php on line 3
+[25-Oct-2017 17:53:22 UTC] PHP Stack trace:
+[25-Oct-2017 17:53:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab6/index.php:0
+[25-Oct-2017 17:53:34 UTC] PHP Fatal error:  Call to undefined function execute() in /home/ubuntu/workspace/labs/lab6/index.php on line 66
+[25-Oct-2017 17:53:34 UTC] PHP Stack trace:
+[25-Oct-2017 17:53:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab6/index.php:0
+[25-Oct-2017 17:53:34 UTC] PHP   2. displayQuotes() /home/ubuntu/workspace/labs/lab6/index.php:128

@@ -1,8 +1,8 @@
 <?php
-function getDatabaseConnection($dbname='quotes') {
+function getDatabaseConnection($dbname="quotes") {
     // cloud9
     $host = 'localhost';
-    $username = 'maliking';
+    $username = 'root';
     $password = '';
 
     //using different database variables in Heroku
@@ -15,7 +15,7 @@ function getDatabaseConnection($dbname='quotes') {
     }
 
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    $conn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     return $conn;
 }
