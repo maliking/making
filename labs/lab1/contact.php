@@ -14,9 +14,9 @@
 <body>
     <header>
         <nav>
-            <a href="index.html"><i class="fa fa-home"></i> Home</a>
-            <a href="about.html"><i class="fa fa-user-circle"></i> About</a>
-            <a id="active" href="contact.html"><i class="fa fa-phone-square"></i> Contact</a>
+            <a href="index.php"><i class="fa fa-home"></i> Home</a>
+            <a href="about.php"><i class="fa fa-user-circle"></i> About</a>
+            <a id="active" href="contact.php"><i class="fa fa-phone-square"></i> Contact</a>
         </nav>
         <h1>Contact</h1>
     </header>
