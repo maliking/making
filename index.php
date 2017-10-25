@@ -19,7 +19,7 @@
         <h3>Labs</h3>
         <ul>
         <?php
-        for ($i = 1; $i < 6; $i++) {
+        for ($i = 1; $i < 10; $i++) {
             echo "<li>";
             echo "<a href='https://making-cst352.herokuapp.com/labs/lab" . $i . "/index.php'>";
             echo "Lab " . $i . "</a>";
