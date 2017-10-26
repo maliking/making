@@ -7,7 +7,7 @@ include '../../dbConnection.php';
 $conn = getDatabaseConnection();
 
 $username = $_POST["username"];
-$password = $_POST["password"];
+$password = sha1($_POST["password"]);
 
 $sql = "SELECT *
         FROM q_admin

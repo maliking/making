@@ -67,7 +67,7 @@
         $records = $stmt -> fetchAll(PDO::FETCH_ASSOC);
 
         foreach ($records as $record) {
-            echo "<em>" . $record["quote"] . "</em>" . $record["firstName"] . " "  . $record["lastName"] . "<br>";
+            echo "<em>" . $record["quote"] . "</em> -" . $record["firstName"] . " "  . $record["lastName"] . "<br>";
         }
 
     }
@@ -127,6 +127,8 @@
             <br>
             <br>
             <input type="submit" value="Filter" name="submit">
+            <input type="reset" value="Reset">
+
         </form>
         <hr>
         <div class="quotes">
