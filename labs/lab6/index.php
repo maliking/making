@@ -39,7 +39,8 @@
         global $conn;
         $sql = "SELECT firstName, lastName, quote
                 FROM q_author
-                NATURAL JOIN q_quote
+                JOIN q_quote
+
                 WHERE 1";
 
         $namedParameters = array();
@@ -60,6 +61,16 @@
             } else {
                 $sql = $sql . " ORDER BY quote";
             }
+         }
+
+         if (isset($_GET["country"])) {
+            $sql = $sql . " AND country = :country ";
+            $namedParameters[":country"] = $_GET["country"];
+         }
+
+         if (isset($_GET["category"])) {
+            $sql = $sql . " AND category = :category ";
+            $namedParameters[":category"] = $_GET["category"];
          }
 
         $stmt = $conn -> prepare($sql);
