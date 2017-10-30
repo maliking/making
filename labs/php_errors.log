@@ -27,3 +27,58 @@ Stack trace:
 [25-Oct-2017 17:53:34 UTC] PHP Stack trace:
 [25-Oct-2017 17:53:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab6/index.php:0
 [25-Oct-2017 17:53:34 UTC] PHP   2. displayQuotes() /home/ubuntu/workspace/labs/lab6/index.php:128
+[26-Oct-2017 17:48:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/labs/lab7/loginProcess.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab7/loginProcess.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab7/loginProcess.php on line 15
+[26-Oct-2017 17:48:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/labs/lab7/loginProcess.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab7/loginProcess.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab7/loginProcess.php on line 15
+[26-Oct-2017 17:54:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab7/loginProcess.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab7/loginProcess.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab7/loginProcess.php on line 22
+[26-Oct-2017 17:54:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab7/loginProcess.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab7/loginProcess.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab7/loginProcess.php on line 22
+[26-Oct-2017 18:14:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab7/addAuthor.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab7/addAuthor.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab7/addAuthor.php on line 20
+[26-Oct-2017 18:16:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab7/addAuthor.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab7/addAuthor.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab7/addAuthor.php on line 20
+[26-Oct-2017 18:17:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab7/addAuthor.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab7/addAuthor.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab7/addAuthor.php on line 20
+[26-Oct-2017 18:18:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab7/addAuthor.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab7/addAuthor.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab7/addAuthor.php on line 21
+[26-Oct-2017 18:18:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab7/addAuthor.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab7/addAuthor.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab7/addAuthor.php on line 21
+[26-Oct-2017 18:18:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab7/addAuthor.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab7/addAuthor.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab7/addAuthor.php on line 21
+[26-Oct-2017 18:20:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab7/loginProcess.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab7/loginProcess.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab7/loginProcess.php on line 22

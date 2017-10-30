@@ -28,6 +28,9 @@ function authorList() {
         <h1>Admin Section</h1>
         <h2>Welcome <?=$_SESSION[adminFullName]?>!</h2>
         <br>
+        <form action="addAuthor.php">
+            <input type="submit" value="Add New Author">
+        </form>
         <?php
             $authors = authorList();
             foreach ($authors as $author) {

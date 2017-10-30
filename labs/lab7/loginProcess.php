@@ -10,11 +10,16 @@ $username = $_POST["username"];
 $password = sha1($_POST["password"]);
 
 $sql = "SELECT *
-        FROM q_admin
-        WHERE username = '$username'
-        AND password = '$password'";
+        FROM   q_admin
+        WHERE  username = :username
+        AND    password = :password";
+
+$namedParameters = array();
+$namedParameters[':username'] = $username;
+$namedParameters[':password'] = $password;
+
 $stmt = $conn -> prepare($sql);
-$stmt -> execute();
+$stmt -> execute($namedParameters);
 $record = $stmt -> fetch(PDO::FETCH_ASSOC);
 
 if (empty($record)) {

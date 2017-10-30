@@ -67,9 +67,8 @@
         $records = $stmt -> fetchAll(PDO::FETCH_ASSOC);
 
         foreach ($records as $record) {
-            echo "<em>" . $record["quote"] . "</em> -" . $record["firstName"] . " "  . $record["lastName"] . "<br>";
+            echo "<em>\"" . $record["quote"] . "\"</em> -<span class='author-name'>" . $record["firstName"] . " "  . $record["lastName"] . "</span><br>";
         }
-
     }
 
 ?>
@@ -78,61 +77,72 @@
 <html>
     <head>
         <title>Lab 6 | Quote Finder</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Ubuntu" rel="stylesheet">
     </head>
     <body>
-        <h1>Quote Finder</h1>
-        <form method="get">
-            <strong>Quote Content: </strong>
-            <input type="text" name="content" value="<?=$_GET["content"]?>"><br><br>
-            <strong>Author's Gender: </strong>
-            <input type="radio" name="gender" id="female" value="F"
-            <?php
-                if ($_GET["gender"] == 'F') {
-                    echo "checked";
-                }
-            ?>
-            >
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-10">
+                    <h1>Quote Finder</h1>
+                    <form method="get">
+                        <strong>Quote Content: </strong>
+                        <input type="text" name="content" value="<?=$_GET["content"]?>"><br><br>
+                        <strong>Author's Gender: </strong>
+                        <input type="radio" name="gender" id="female" value="F"
+                        <?php
+                            if ($_GET["gender"] == 'F') {
+                                echo "checked";
+                            }
+                        ?>
+                        >
 
-            <label for="female">Female</label>
-            <input type="radio" name="gender" id="male" value="M"
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="male" value="M"
 
-            <?php
-                if ($_GET["gender"] == 'M') {
-                    echo "checked";
-                }
-            ?>
-            >
+                        <?php
+                            if ($_GET["gender"] == 'M') {
+                                echo "checked";
+                            }
+                        ?>
+                        >
 
-            <label for="male">Male</label><br><br>
-            <strong>Author's Birthplace: </strong>
-            <select name="country">
-                <option value="">Select a Country</option>
-                <?=displayCountryOptions()?>
-            </select>
-            <br>
-            <br>
-            <strong>Category: </strong>
-            <select name="category">
-                <option value="">Select a Category</option>
-                <?=displayCategoryOptions()?>
-            </select>
-            <br>
-            <br>
+                        <label for="male">Male</label><br><br>
+                        <strong>Author's Birthplace: </strong>
+                        <select name="country">
+                            <option value="">Select a Country</option>
+                            <?=displayCountryOptions()?>
+                        </select>
+                        <br>
+                        <br>
+                        <strong>Category: </strong>
+                        <select name="category">
+                            <option value="">Select a Category</option>
+                            <?=displayCategoryOptions()?>
+                        </select>
+                        <br>
+                        <br>
 
-            Order by:
-            <input type="radio" name="orderBy" id="orderByAuthor" value="orderByAuthor">
-            <label for="orderByAuthor">Author</label>
-            <input type="radio" name="orderBy" id="orderByQuote" value="orderByQuote">
-            <label for="orderByQuote">Quote</label>
-            <br>
-            <br>
-            <input type="submit" value="Filter" name="submit">
-            <input type="reset" value="Reset">
+                        <strong>Order by: </strong>
+                        <input type="radio" name="orderBy" id="orderByAuthor" value="orderByAuthor">
+                        <label for="orderByAuthor">Author</label>
+                        <input type="radio" name="orderBy" id="orderByQuote" value="orderByQuote">
+                        <label for="orderByQuote">Quote</label>
+                        <br>
+                        <br>
+                        <input type="submit" value="Filter" name="submit">
+                        <input type="reset" value="Reset">
 
-        </form>
-        <hr>
-        <div class="quotes">
-            <?=displayQuotes()?>
+                    </form>
+
+                    <hr>
+                    <div class="quotes">
+                        <?=displayQuotes()?>
+                    </div>
+                </div>
+            </div>
         </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
