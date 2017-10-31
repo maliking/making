@@ -13,8 +13,7 @@
         $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         foreach ($records as $record) {
-            echo "<option " ;
-
+            echo '<option value="' . $record['country'] . '" ';
             if ($record['country'] == $_GET['country'] ) {
                 echo "selected";
             }
@@ -35,7 +34,13 @@
         $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         foreach ($records as $record) {
-            echo "<option>" . $record['category'] . "</option>";
+            echo '<option value="' . $record['category'] . '"';
+
+            if ($record['category'] == $_GET['category'] ) {
+                echo "selected";
+            }
+
+            echo ">" . $record['category'] . "</option>";
         }
 
    }
@@ -65,10 +70,10 @@
 
         }
 
-        //  if (isset($_GET["country"])) {
-        //     $sql = $sql . " AND country = :country";
-        //     $namedParameters[":country"] = $_GET["country"];
-        //  }
+        if (isset($_GET["country"])) {
+            $sql = $sql . " AND country = :country";
+            $namedParameters[":country"] = $_GET["country"];
+        }
 
 
         if (isset($_GET['orderBy'])) {
