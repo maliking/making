@@ -17,77 +17,80 @@
             if ($record['country'] == $_GET['country'] ) {
                 echo "selected";
             }
-
             echo ">" . $record['country'] . "</option>";
         }
-
    }
-
 
     function displayCategoryOptions() {
        global $conn;
        $sql = "SELECT *
                 FROM `q_category`
                 ORDER BY category";
+
         $stmt = $conn->prepare($sql);
         $stmt->execute();
         $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         foreach ($records as $record) {
             echo '<option value="' . $record['category'] . '"';
-
             if ($record['category'] == $_GET['category'] ) {
                 echo "selected";
             }
-
             echo ">" . $record['category'] . "</option>";
         }
-
    }
 
    function displayQuotes(){
        global $conn;
 
-        $sql = "SELECT firstName, lastName, quote
-                FROM q_author
-                    NATURAL JOIN q_quote
-                WHERE 1";
+        if (!empty($_GET["category"])) {
+            $sql = "SELECT firstName, lastName, quote
+                    FROM q_author
+                        NATURAL JOIN q_quote
+                        NATURAL JOIN q_cat_quote
+                        NATURAL JOIN q_category
+                        WHERE 1";
+
+        } else {
+            $sql = "SELECT firstName, lastName, quote
+                    FROM q_author
+                        NATURAL JOIN q_quote
+                        WHERE 1";
+        }
 
         $namedParameters = array();
 
         if (!empty($_GET['content'])) {
-
            $sql = $sql . " AND quote LIKE :quoteContent";
            $namedParameters[":quoteContent"] = "%" . $_GET['content'] . "%";
         }
 
-
         if (isset($_GET['gender'])) {
-
             $sql = $sql . " AND gender = :gender ";
             $namedParameters[':gender'] = $_GET['gender'];
-
-
         }
 
-        if (isset($_GET["country"])) {
+        if (!empty($_GET["country"])) {
             $sql = $sql . " AND country = :country";
             $namedParameters[":country"] = $_GET["country"];
         }
 
+        if (!empty($_GET["category"])) {
+            $sql = $sql . " AND category = :category";
+            $namedParameters[":category"] = $_GET["category"];
+        }
 
         if (isset($_GET['orderBy'])) {
-
             if ($_GET['orderBy'] == 'orderByAuthor') {
-
                $sql = $sql . " ORDER BY lastName";
-
             } else {
-
                 $sql = $sql . " ORDER BY quote";
             }
-
         }
+        // echo "<pre>";
+        // print_r($namedParameters);
+        // print_r($sql);
+        // echo "</pre>";
 
         $stmt = $conn->prepare($sql);
         $stmt->execute($namedParameters);
@@ -95,11 +98,7 @@
         foreach ($records as $record) {
             echo "<em>\"" . $record["quote"] . "\"</em> -<span class='author-name'>" . $record["firstName"] . " "  . $record["lastName"] . "</span><br>";
         }
-
-
-
    }
-
 ?>
 
 <!DOCTYPE html>
