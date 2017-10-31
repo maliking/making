@@ -1,99 +1,102 @@
 <?php
+    include '../../dbConnection.php';
+    $conn = getDatabaseConnection();
 
-   include '../../dbConnection.php';
-   $conn = getDatabaseConnection();
-
-   function displayCountryOptions() {
-       global $conn;
-       $sql = "SELECT DISTINCT(country)
+    function displayCountryOptions() {
+        global $conn;
+        $sql = "SELECT DISTINCT(country)
                 FROM `q_author`
-                ORDER by country";
-        $stmt = $conn->prepare($sql);
-        $stmt->execute();
-        $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                ORDER BY country";
+        $stmt = $conn -> prepare($sql);
+        $stmt -> execute();
+        $records = $stmt -> fetchAll(PDO::FETCH_ASSOC);
 
         foreach ($records as $record) {
-            echo "<option " ;
-
-            if ($record['country'] == $_GET['country'] ) {
+            echo "<option ";
+            if ($record["country"] == $_GET["country"]) {
                 echo "selected";
             }
 
-            echo ">" . $record['country'] . "</option>";
+            echo ">" . $record["country"] . "</option>";
         }
-
-   }
-
+    }
 
     function displayCategoryOptions() {
-       global $conn;
-       $sql = "SELECT *
+        global $conn;
+        $sql = "SELECT *
                 FROM `q_category`
                 ORDER BY category";
-        $stmt = $conn->prepare($sql);
-        $stmt->execute();
-        $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $stmt = $conn -> prepare($sql);
+        $stmt -> execute();
+        $records = $stmt -> fetchAll(PDO::FETCH_ASSOC);
 
         foreach ($records as $record) {
             echo "<option>" . $record['category'] . "</option>";
         }
 
-   }
+    }
 
-   function displayQuotes(){
-       global $conn;
 
-        $sql = "SELECT firstName, lastName, quote
-                FROM q_author
-                    NATURAL JOIN q_quote
-                WHERE 1";
+    function displayQuotes() {
+        global $conn;
 
-        $namedParameters = array();
-
-        if (!empty($_GET['content'])) {
-
-           $sql = $sql . " AND quote LIKE :quoteContent";
-           $namedParameters[":quoteContent"] = "%" . $_GET['content'] . "%";
+        if (isset($_GET["submit"])) {
+        if (isset($_GET["category"])) {
+            $sql = "SELECT firstName, lastName, quote
+                    FROM q_author
+                        NATURAL JOIN q_quote
+                        NATURAL JOIN q_cat_quote
+                        NATURAL JOIN q_category
+                        WHERE 1";
+        } else {
+            $sql = "SELECT firstName, lastName, quote
+                    FROM q_author
+                        NATURAL JOIN q_quote
+                    WHERE 1";
         }
 
+        $np = array();
 
-        if (isset($_GET['gender'])) {
+        if (!empty($_GET["content"])) {
+            $sql = $sql . " AND quote LIKE :quoteContent";
+            $np[":quoteContent"] = "%" . $_GET["content"] . "%";
+        }
 
+         if (isset($_GET["category"])) {
+            $sql = $sql . " AND category = :category";
+            $np[":category"] = $_GET["category"];
+         }
+
+         if (isset($_GET["country"])) {
+            $sql = $sql . " AND country = :country";
+            $np[":country"] = $_GET["country"];
+         }
+
+        if (isset($_GET["gender"])) {
             $sql = $sql . " AND gender = :gender ";
-            $namedParameters[':gender'] = $_GET['gender'];
-
-
+            $np[":gender"] = $_GET["gender"];
         }
 
-        //  if (isset($_GET["country"])) {
-        //     $sql = $sql . " AND country = :country";
-        //     $namedParameters[":country"] = $_GET["country"];
-        //  }
-
-
-        if (isset($_GET['orderBy'])) {
-
-            if ($_GET['orderBy'] == 'orderByAuthor') {
-
-               $sql = $sql . " ORDER BY lastName";
-
+        if (isset($_GET["orderBy"])) {
+            if ($_GET["orderBy"] == "orderByAuthor") {
+                $sql = $sql . " ORDER BY lastName";
             } else {
-
                 $sql = $sql . " ORDER BY quote";
             }
+         }
 
-        }
 
-        $stmt = $conn->prepare($sql);
-        $stmt->execute($namedParameters);
-        $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+
+        $stmt = $conn -> prepare($sql);
+        $stmt -> execute($np);
+        $records = $stmt -> fetchAll(PDO::FETCH_ASSOC);
+
         foreach ($records as $record) {
             echo "<em>\"" . $record["quote"] . "\"</em> -<span class='author-name'>" . $record["firstName"] . " "  . $record["lastName"] . "</span><br>";
         }
-
-
-
-   }
+        }
+    }
 
 ?>
 

@@ -154,3 +154,552 @@ Stack trace:
 #1 /home/ubuntu/workspace/labs/lab6/index.php(156): displayQuotes()
 #2 {main}
   thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 81
+[31-Oct-2017 06:40:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:41:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:41:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:41:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:52:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:52:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:53:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:53:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:53:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:53:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:56:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:56:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:56:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:56:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:56:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:56:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:56:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:56:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:56:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:57:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:57:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:58:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:58:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:58:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 06:58:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:01:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:02:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:02:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:07:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:08:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:08:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:08:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:09:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:09:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:10:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:11:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:11:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:11:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:11:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:11:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:11:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:11:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:11:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:14:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:14:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:15:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:15:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:15:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:15:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:15:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:16:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:16:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:17:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:17:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:17:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:17:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:18:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:18:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:19:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:19:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:19:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:20:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:20:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:31:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:31:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:32:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:32:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(152): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 77
+[31-Oct-2017 07:38:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 1 AND country = ''' at line 10' in /home/ubuntu/workspace/labs/lab6/testing.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/testing.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/testing.php(165): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/testing.php on line 90
+[31-Oct-2017 07:40:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN q_cat_quote cq
+                                ON q.quoteId = cq.quot' at line 5' in /home/ubuntu/workspace/labs/lab6/testing.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/testing.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/testing.php(165): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/testing.php on line 90
+[31-Oct-2017 07:41:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN q_cat_quote cq
+                                ON q.quoteId = cq.quot' at line 5' in /home/ubuntu/workspace/labs/lab6/testing.php:89
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/testing.php(89): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/testing.php(164): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/testing.php on line 89
+[31-Oct-2017 07:41:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN q_cat_quote cq
+                                ON q.quoteId = cq.quot' at line 5' in /home/ubuntu/workspace/labs/lab6/testing.php:89
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/testing.php(89): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/testing.php(164): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/testing.php on line 89
+[31-Oct-2017 17:24:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NATURAL JOIN q_cat_quote
+                            NATURAL JOIN q_category
+   ' at line 4' in /home/ubuntu/workspace/labs/lab6/testing.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/testing.php(87): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/testing.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/testing.php on line 87
+[31-Oct-2017 17:24:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NATURAL JOIN q_cat_quote
+                            NATURAL JOIN q_category
+   ' at line 4' in /home/ubuntu/workspace/labs/lab6/testing.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/testing.php(87): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/testing.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/testing.php on line 87
+[31-Oct-2017 17:24:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NATURAL JOIN q_cat_quote
+                            NATURAL JOIN q_category
+   ' at line 4' in /home/ubuntu/workspace/labs/lab6/testing.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/testing.php(87): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/testing.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/testing.php on line 87
+[31-Oct-2017 17:25:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND category = 'Humor' AND country = ''' at line 5' in /home/ubuntu/workspace/labs/lab6/testing.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/testing.php(86): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/testing.php(161): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/testing.php on line 86
+[31-Oct-2017 17:25:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND category = 'Humor' AND country = ''' at line 5' in /home/ubuntu/workspace/labs/lab6/testing.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/testing.php(86): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/testing.php(161): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/testing.php on line 86
+[31-Oct-2017 17:25:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND category = 'Humor' AND country = ''' at line 5' in /home/ubuntu/workspace/labs/lab6/testing.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/testing.php(86): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/testing.php(161): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/testing.php on line 86
+[31-Oct-2017 17:29:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country = ''' at line 5' in /home/ubuntu/workspace/labs/lab6/testing.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/testing.php(86): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/testing.php(161): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/testing.php on line 86
+[31-Oct-2017 17:30:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country = '' ORDER BY lastName' at line 5' in /home/ubuntu/workspace/labs/lab6/testing.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/testing.php(86): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/testing.php(161): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/testing.php on line 86
+[31-Oct-2017 18:05:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/labs/lab6/testing.php:95
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/testing.php(95): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/testing.php(170): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/testing.php on line 95
+[31-Oct-2017 18:41:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/index.php:102
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(102): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(174): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 102
+[31-Oct-2017 18:42:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/index.php:102
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(102): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(174): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 102
+[31-Oct-2017 18:42:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/index.php:102
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(102): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(174): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 102
+[31-Oct-2017 18:46:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/index.php:107
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(107): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(179): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 107
+[31-Oct-2017 18:46:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/index.php:107
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(107): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(179): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 107
+[31-Oct-2017 18:46:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/index.php:107
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(107): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(179): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 107
+[31-Oct-2017 18:46:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/lab6/index.php:107
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(107): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(179): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 107
+[31-Oct-2017 18:50:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/labs/lab6/index.php:99
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(99): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(171): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 99
+[31-Oct-2017 18:50:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_quote'' in /home/ubuntu/workspace/labs/lab6/index.php:99
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(99): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(171): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 99
+[31-Oct-2017 18:50:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_quote'' in /home/ubuntu/workspace/labs/lab6/index.php:99
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(99): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/labs/lab6/index.php(171): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 99
