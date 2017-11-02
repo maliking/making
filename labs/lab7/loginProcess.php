@@ -30,3 +30,4 @@ if (empty($record)) {
     header('Location: admin.php'); // redirects to admin page
 }
 
+?>

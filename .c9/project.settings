@@ -73,13 +73,14 @@
     },
     "run": {
         "@path": "/.c9/runners",
-        "@runner": "PHP (built-in web server)",
+        "@runner": "PHP (cli)",
         "configs": {
             "@inited": "true",
             "json()": {
                 "Apache & PHP": {
                     "command": "",
-                    "debug": false,
+                    "cwd": "/labs/lab7",
+                    "debug": true,
                     "default": true,
                     "name": "Apache & PHP",
                     "runner": "Apache httpd (PHP, HTML)",
