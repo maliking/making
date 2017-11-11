@@ -18,11 +18,11 @@
             "@advanced": {},
             "@braces": "end-expand",
             "@formatOnSave": true,
-            "@indent_inner_html": false,
+            "@indent_inner_html": true,
             "@jslinthappy": "false",
             "@keeparrayindentation": "false",
             "@preserve-inline": true,
-            "@preserveempty": false,
+            "@preserveempty": true,
             "@space_before_conditional": "true",
             "@unescape_strings": "true"
         }
