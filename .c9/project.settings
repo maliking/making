@@ -17,7 +17,7 @@
         "jsbeautify": {
             "@advanced": {},
             "@braces": "end-expand",
-            "@formatOnSave": true,
+            "@formatOnSave": false,
             "@indent_inner_html": true,
             "@jslinthappy": "false",
             "@keeparrayindentation": "false",
@@ -36,7 +36,7 @@
         "@formatter": "gofmt -w \"$file\""
     },
     "javascript": {
-        "@formatOnSave": true,
+        "@formatOnSave": false,
         "@formatter": "esformatter -i \"$file\"",
         "@use_jsbeautify": true
     },
