@@ -1082,3 +1082,38 @@ Stack trace:
 #0 /home/ubuntu/workspace/labs/lab7/addAuthor.php(24): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/labs/lab7/addAuthor.php on line 24
+[23-Nov-2017 21:04:07 UTC] PHP Fatal error:  Call to undefined method PDOStatement::feetch() in /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php on line 11
+[23-Nov-2017 21:04:07 UTC] PHP Stack trace:
+[23-Nov-2017 21:04:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:0
+[23-Nov-2017 21:08:02 UTC] PHP Fatal error:  Call to undefined method PDOStatement::feetch() in /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php on line 11
+[23-Nov-2017 21:08:02 UTC] PHP Stack trace:
+[23-Nov-2017 21:08:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:0
+[23-Nov-2017 21:08:05 UTC] PHP Fatal error:  Call to undefined method PDOStatement::feetch() in /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php on line 11
+[23-Nov-2017 21:08:05 UTC] PHP Stack trace:
+[23-Nov-2017 21:08:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:0
+[23-Nov-2017 21:08:24 UTC] PHP Fatal error:  Call to undefined method PDOStatement::feetch() in /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php on line 11
+[23-Nov-2017 21:08:24 UTC] PHP Stack trace:
+[23-Nov-2017 21:08:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:0
+[23-Nov-2017 21:08:50 UTC] PHP Fatal error:  Call to undefined method PDOStatement::feetch() in /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php on line 11
+[23-Nov-2017 21:08:50 UTC] PHP Stack trace:
+[23-Nov-2017 21:08:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:0
+[23-Nov-2017 21:10:12 UTC] PHP Fatal error:  Call to undefined method PDOStatement::feetch() in /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php on line 11
+[23-Nov-2017 21:10:12 UTC] PHP Stack trace:
+[23-Nov-2017 21:10:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:0
+[23-Nov-2017 21:11:40 UTC] PHP Fatal error:  Call to undefined method PDOStatement::feetch() in /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php on line 11
+[23-Nov-2017 21:11:40 UTC] PHP Stack trace:
+[23-Nov-2017 21:11:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:0
+[23-Nov-2017 21:11:56 UTC] PHP Fatal error:  Call to undefined method PDOStatement::feetch() in /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php on line 11
+[23-Nov-2017 21:11:56 UTC] PHP Stack trace:
+[23-Nov-2017 21:11:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:0
+[23-Nov-2017 21:12:13 UTC] PHP Fatal error:  Call to undefined method PDOStatement::feetch() in /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php on line 11
+[23-Nov-2017 21:12:13 UTC] PHP Stack trace:
+[23-Nov-2017 21:12:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:0
+[27-Nov-2017 00:05:26 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, array given in /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php on line 13
+[27-Nov-2017 00:05:26 UTC] PHP Stack trace:
+[27-Nov-2017 00:05:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:0
+[27-Nov-2017 00:05:26 UTC] PHP   2. mysql_num_rows(*uninitialized*) /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:13
+[27-Nov-2017 00:05:32 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php on line 13
+[27-Nov-2017 00:05:32 UTC] PHP Stack trace:
+[27-Nov-2017 00:05:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:0
+[27-Nov-2017 00:05:32 UTC] PHP   2. mysql_num_rows(*uninitialized*) /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:13

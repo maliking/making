@@ -1,0 +1,19 @@
+body {
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('../img/back.jpg');
+}
+h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+#green,
+#red {
+    font-weight: bold;
+}
+#green {
+    color: green;
+}
+#red {
+    color: red;
+}
