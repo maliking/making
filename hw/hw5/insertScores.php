@@ -16,7 +16,7 @@ $conn = getDatabaseConnection();
 
         $records = $stmt -> fetchAll(PDO::FETCH_ASSOC);
         foreach ($records as $record) {
-            echo "Average: " . $record["AVG(score)"] . " <br> " . $record["COUNT(username)"];
+            echo "Average: " . $record["AVG(score)"] . " <br>Count: " . $record["COUNT(username)"];
         }
     }
 
