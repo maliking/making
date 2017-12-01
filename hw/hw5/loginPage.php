@@ -11,6 +11,20 @@
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header navbar-right">
+                        <?php
+                            if(isset($_SESSION['username']) && !empty($_SESSION['username'])) {
+                                echo "<p class=\"navbar-text\">Signed in as " . $_SESSION['username'] . "</p>";
+                                echo "<a class=\"btn btn-default navbar-btn\" href=\"logout.php\">Logout</a>";
+                            } else {
+                                echo "<a class=\"btn btn-success navbar-btn\" href=\"index.php\">Login</a>";
+                            }
+                        ?>
+                </div>
+            </div>
+        </nav>
         <div class="container">
             <div class="row">
                 <div class="col-xs-6 col-xs-offset-3 text-center">
