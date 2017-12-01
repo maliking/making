@@ -90,7 +90,8 @@ if (!isset($_SESSION["username"])) {
                         </div>
                         <p id="answer6"></p>
                         <p id="congrats"></p>
-                        <p id="points">Total Score: </p><span id="score"></span>
+                        <p id="points">Total Score: <span id="score"></span></p>
+                        <br>
                         <p id="avg"></p>
                     </form>
                     <button id="myBtn" class="btn btn-success" onclick="checkAnswers()">Check Answers!</button>
