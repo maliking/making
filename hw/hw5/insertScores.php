@@ -24,14 +24,12 @@ $conn = getDatabaseConnection();
 
     if (isset($_GET["points"])) {
         $points = $_GET["points"];
-        // echo $points;
     } else {
         echo "not set";
     }
 
     if (isset($_SESSION["username"])) {
         $username = $_SESSION["username"];
-        // echo $_SESSION["userId"];
     } else {
         echo "username not set";
     }

@@ -7,7 +7,6 @@ if (!isset($_SESSION["username"])) {
 }
 ?>
 
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,7 +19,6 @@ if (!isset($_SESSION["username"])) {
         <link href="https://fonts.googleapis.com/css?family=Coustard|Source+Sans+Pro" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="js/functions.js"></script>
-
     </head>
     <body>
         <div class="container">
@@ -99,6 +97,5 @@ if (!isset($_SESSION["username"])) {
                 </div>
             </div>
         </div>
-
     </body>
 </html>

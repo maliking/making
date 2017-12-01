@@ -76,9 +76,6 @@ function checkAnswers() {
         complete: function(data) {
             JSON.stringify(data);
             $("#avg").html(data.responseText);
-        },
-        error: function(err) {
-            alert(err);
         }
     });
 }
