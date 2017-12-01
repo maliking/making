@@ -71,7 +71,7 @@ function checkAnswers() {
     $.ajax ({
         type: "GET",
         url: "insertScores.php",
-        data: {"points" : $("#score").html()},
+        data: {"score" : $("#score").html()},
         dataType: "json",
         complete: function(data) {
             JSON.stringify(data);

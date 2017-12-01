@@ -22,23 +22,15 @@ $conn = getDatabaseConnection();
 
     getAvg();
 
-    if (isset($_GET["points"])) {
-        $points = $_GET["points"];
-    } else {
-        echo "not set";
-    }
-
-    if (isset($_SESSION["username"])) {
-        $username = $_SESSION["username"];
-    } else {
-        echo "username not set";
-    }
-
     $sql = "INSERT INTO games(username, score)
-            VALUES ($username, $points)";
-    $stmt = $conn -> prepare($sql);
-    $stmt -> execute();
+            VALUES (:username, :score)";
 
+    $np = array();
+    $np[":username"] = $_SESSION["username"];
+    $np[":score"] = $_GET["score"];
+
+    $stmt = $conn -> prepare($sql);
+    $stmt -> execute($np);
 
     echo json_encode($record);
 ?>
