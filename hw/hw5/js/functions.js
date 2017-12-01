@@ -1,5 +1,4 @@
 /* global $ */
-
 function checkAnswers() {
     var points = 0;
     var answer1 = document.getElementById("quizForm").elements.namedItem("q1").value;
@@ -82,17 +81,4 @@ function checkAnswers() {
             alert(err);
         }
     });
-
 }
-
-// function insertScores() {
-
-// }
-
-
-// $(document).ready( function(){
-//     $("form :input").change(function(){ checkAnswers() });
-//     $("#myBtn").click( function(){
-//         insertScores();
-//     });
-// });//document.ready
