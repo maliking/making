@@ -1117,3 +1117,34 @@ Stack trace:
 [27-Nov-2017 00:05:32 UTC] PHP Stack trace:
 [27-Nov-2017 00:05:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:0
 [27-Nov-2017 00:05:32 UTC] PHP   2. mysql_num_rows(*uninitialized*) /home/ubuntu/workspace/labs/lab9/checkUsernameAPI.php:13
+[28-Nov-2017 19:18:48 UTC] PHP Warning:  scandir(/gallery/): failed to open dir: No such file or directory in /home/ubuntu/workspace/labs/lab10/index.php on line 16
+[28-Nov-2017 19:18:48 UTC] PHP Stack trace:
+[28-Nov-2017 19:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab10/index.php:0
+[28-Nov-2017 19:18:48 UTC] PHP   2. displayImages() /home/ubuntu/workspace/labs/lab10/index.php:61
+[28-Nov-2017 19:18:48 UTC] PHP   3. scandir(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/lab10/index.php:16
+[28-Nov-2017 19:18:48 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/ubuntu/workspace/labs/lab10/index.php on line 16
+[28-Nov-2017 19:18:48 UTC] PHP Stack trace:
+[28-Nov-2017 19:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab10/index.php:0
+[28-Nov-2017 19:18:48 UTC] PHP   2. displayImages() /home/ubuntu/workspace/labs/lab10/index.php:61
+[28-Nov-2017 19:18:48 UTC] PHP   3. scandir(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/lab10/index.php:16
+[28-Nov-2017 19:27:10 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/labs/lab10/index.php on line 7
+[28-Nov-2017 19:27:10 UTC] PHP Stack trace:
+[28-Nov-2017 19:27:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab10/index.php:0
+[28-Nov-2017 19:27:10 UTC] PHP   2. displayImages() /home/ubuntu/workspace/labs/lab10/index.php:45
+[28-Nov-2017 19:27:10 UTC] PHP   3. filesize(*uninitialized*) /home/ubuntu/workspace/labs/lab10/index.php:7
+[28-Nov-2017 19:44:10 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/labs/lab10/upload.php on line 7
+[28-Nov-2017 19:44:10 UTC] PHP Stack trace:
+[28-Nov-2017 19:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab10/upload.php:0
+[28-Nov-2017 19:44:10 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/labs/lab10/upload.php:7
+[28-Nov-2017 19:46:11 UTC] PHP Warning:  getimagesize(0): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/lab10/upload.php on line 11
+[28-Nov-2017 19:46:11 UTC] PHP Stack trace:
+[28-Nov-2017 19:46:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab10/upload.php:0
+[28-Nov-2017 19:46:11 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/labs/lab10/upload.php:11
+[28-Nov-2017 19:46:19 UTC] PHP Warning:  getimagesize(0): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/lab10/upload.php on line 11
+[28-Nov-2017 19:46:19 UTC] PHP Stack trace:
+[28-Nov-2017 19:46:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab10/upload.php:0
+[28-Nov-2017 19:46:19 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/labs/lab10/upload.php:11
+[28-Nov-2017 19:46:25 UTC] PHP Warning:  getimagesize(210766): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/lab10/upload.php on line 11
+[28-Nov-2017 19:46:25 UTC] PHP Stack trace:
+[28-Nov-2017 19:46:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab10/upload.php:0
+[28-Nov-2017 19:46:25 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/labs/lab10/upload.php:11

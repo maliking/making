@@ -1,5 +1,6 @@
 /* global $ */
 function getCity() {
+
     $.ajax({
         type: "GET",
         url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
