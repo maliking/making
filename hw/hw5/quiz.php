@@ -27,7 +27,6 @@ if (!isset($_SESSION["username"])) {
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-sm-offset-4">
                     <h1>Grammar Quiz</h1>
-                    <?=$userInfo["userId"];?>
                     <form id="quizForm">
                         <div class="form-group">
                             <label for="q1">1. Sorry, Lisa _____ not here at the moment.</label>

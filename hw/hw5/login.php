@@ -23,7 +23,6 @@ if (empty($record)) {
     echo "Wrong credentials!";
 } else {
     $_SESSION["username"] = $record["username"];
-    $_SESSION["userId"] = $record["userId"];
     header('Location: quiz.php');
 }
 

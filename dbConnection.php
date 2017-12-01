@@ -1,5 +1,5 @@
 <?php
-function getDatabaseConnection($dbname="quotes") {
+function getDatabaseConnection() {
     // cloud9
     $host = 'localhost';
     $username = 'root';

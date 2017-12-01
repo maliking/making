@@ -25,7 +25,7 @@ h1 {
     animation: mymove 5s infinite;
 }
 
-#points {
+#points, #avg {
     font-size: 1.3em;
     font-weight: bold;
     display: inline;

@@ -362,3 +362,30 @@ Stack trace:
 #1 /home/ubuntu/workspace/hw/hw5/insertScores.php(4): getDatabaseConnection()
 #2 {main}
   thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[01-Dec-2017 18:16:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.games' doesn't exist' in /home/ubuntu/workspace/hw/hw5/insertScores.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/hw/hw5/insertScores.php(15): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/hw/hw5/insertScores.php(23): getAvg()
+#2 {main}
+  thrown in /home/ubuntu/workspace/hw/hw5/insertScores.php on line 15
+[01-Dec-2017 18:16:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.games' doesn't exist' in /home/ubuntu/workspace/hw/hw5/login.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/hw/hw5/login.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/hw/hw5/login.php on line 19
+[01-Dec-2017 18:17:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/hw/hw5/login.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/hw/hw5/login.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/hw/hw5/login.php on line 19
+[01-Dec-2017 18:20:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/hw/hw5/insertScores.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/hw/hw5/insertScores.php(15): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/hw/hw5/insertScores.php(23): getAvg()
+#2 {main}
+  thrown in /home/ubuntu/workspace/hw/hw5/insertScores.php on line 15
+[01-Dec-2017 18:20:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/hw/hw5/login.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/hw/hw5/login.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/hw/hw5/login.php on line 19
