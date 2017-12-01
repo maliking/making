@@ -90,7 +90,8 @@ if (!isset($_SESSION["username"])) {
                         </div>
                         <p id="answer6"></p>
                         <p id="congrats"></p>
-                        <p id="points">Total Score: <span id="score"></span></p>
+                        <p id="points">Total Score: </p>
+                        <span id="score"></span>
                         <br>
                         <p id="avg"></p>
                     </form>
