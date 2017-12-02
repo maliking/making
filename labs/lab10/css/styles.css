@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url('../img/back.jpg');
+}
+
+h1 {
+    font-family: 'Bungee Inline', sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    min-height: 75px;
+    max-height:75px;
+    width:100%;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.btn-block {
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.btn-success {
+    color: #eee;
+}
+
+#camera {
+    width: 50px;
+    margin-bottom: 13px;
+    margin-right: 10px;
+}
+
+.navbar-default {
+    background-color: transparent;
+}
+
+.navbar-text {
+    color: white;
+    text-align: center;
+}
