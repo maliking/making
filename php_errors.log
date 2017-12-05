@@ -45,3 +45,1101 @@ Stack trace:
 [14-Nov-2017 16:08:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/admin.php:0
 [14-Nov-2017 16:10:30 UTC] PHP Parse error:  syntax error, unexpected '"<td>"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final_project/admin.php on line 63
 [14-Nov-2017 16:10:31 UTC] PHP Parse error:  syntax error, unexpected '"<td>"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/final_project/admin.php on line 63
+[04-Dec-2017 21:58:47 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 21:58:47 UTC] PHP Stack trace:
+[04-Dec-2017 21:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 21:58:47 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 21:58:47 UTC] PHP Stack trace:
+[04-Dec-2017 21:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 21:58:47 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/final_project/login.php on line 4
+[04-Dec-2017 21:58:47 UTC] PHP Stack trace:
+[04-Dec-2017 21:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:10:28 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:10:28 UTC] PHP Stack trace:
+[04-Dec-2017 22:10:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:10:28 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:10:28 UTC] PHP Stack trace:
+[04-Dec-2017 22:10:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:10:28 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/final_project/login.php on line 4
+[04-Dec-2017 22:10:28 UTC] PHP Stack trace:
+[04-Dec-2017 22:10:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:12:38 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:12:38 UTC] PHP Stack trace:
+[04-Dec-2017 22:12:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:12:38 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:12:38 UTC] PHP Stack trace:
+[04-Dec-2017 22:12:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:12:38 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/final_project/login.php on line 4
+[04-Dec-2017 22:12:38 UTC] PHP Stack trace:
+[04-Dec-2017 22:12:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:13:36 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:13:36 UTC] PHP Stack trace:
+[04-Dec-2017 22:13:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:13:36 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:13:36 UTC] PHP Stack trace:
+[04-Dec-2017 22:13:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:13:36 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/final_project/login.php on line 4
+[04-Dec-2017 22:13:36 UTC] PHP Stack trace:
+[04-Dec-2017 22:13:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:15:18 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:15:18 UTC] PHP Stack trace:
+[04-Dec-2017 22:15:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:15:18 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:15:18 UTC] PHP Stack trace:
+[04-Dec-2017 22:15:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:15:18 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/final_project/login.php on line 4
+[04-Dec-2017 22:15:18 UTC] PHP Stack trace:
+[04-Dec-2017 22:15:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:15:32 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:15:32 UTC] PHP Stack trace:
+[04-Dec-2017 22:15:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:15:32 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:15:32 UTC] PHP Stack trace:
+[04-Dec-2017 22:15:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:15:32 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/final_project/login.php on line 4
+[04-Dec-2017 22:15:32 UTC] PHP Stack trace:
+[04-Dec-2017 22:15:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:53:18 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:53:18 UTC] PHP Stack trace:
+[04-Dec-2017 22:53:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:53:18 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:53:18 UTC] PHP Stack trace:
+[04-Dec-2017 22:53:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:53:18 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/final_project/login.php on line 4
+[04-Dec-2017 22:53:18 UTC] PHP Stack trace:
+[04-Dec-2017 22:53:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:53:23 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:53:23 UTC] PHP Stack trace:
+[04-Dec-2017 22:53:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:53:23 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:53:23 UTC] PHP Stack trace:
+[04-Dec-2017 22:53:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:53:23 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/final_project/login.php on line 4
+[04-Dec-2017 22:53:23 UTC] PHP Stack trace:
+[04-Dec-2017 22:53:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:55:00 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:55:00 UTC] PHP Stack trace:
+[04-Dec-2017 22:55:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:55:00 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:55:00 UTC] PHP Stack trace:
+[04-Dec-2017 22:55:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:55:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/final_project/login.php on line 4
+[04-Dec-2017 22:55:00 UTC] PHP Stack trace:
+[04-Dec-2017 22:55:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:55:06 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:55:06 UTC] PHP Stack trace:
+[04-Dec-2017 22:55:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:55:06 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:55:06 UTC] PHP Stack trace:
+[04-Dec-2017 22:55:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:55:06 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/final_project/login.php on line 4
+[04-Dec-2017 22:55:06 UTC] PHP Stack trace:
+[04-Dec-2017 22:55:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:55:28 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:55:28 UTC] PHP Stack trace:
+[04-Dec-2017 22:55:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:55:28 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/final_project/login.php on line 3
+[04-Dec-2017 22:55:28 UTC] PHP Stack trace:
+[04-Dec-2017 22:55:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:55:28 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/final_project/login.php on line 4
+[04-Dec-2017 22:55:28 UTC] PHP Stack trace:
+[04-Dec-2017 22:55:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/login.php:0
+[04-Dec-2017 22:56:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/final_project/login.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/login.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/login.php on line 19
+[05-Dec-2017 00:34:41 UTC] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in /home/ubuntu/workspace/final_project/index.php on line 67
+[05-Dec-2017 00:34:42 UTC] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in /home/ubuntu/workspace/final_project/index.php on line 67
+[05-Dec-2017 00:34:47 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /home/ubuntu/workspace/final_project/index.php on line 67
+[05-Dec-2017 00:34:55 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /home/ubuntu/workspace/final_project/index.php on line 67
+[05-Dec-2017 00:34:56 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /home/ubuntu/workspace/final_project/index.php on line 67
+[05-Dec-2017 00:35:09 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /home/ubuntu/workspace/final_project/index.php on line 67
+[05-Dec-2017 00:35:10 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /home/ubuntu/workspace/final_project/index.php on line 67
+[05-Dec-2017 00:35:14 UTC] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in /home/ubuntu/workspace/final_project/index.php on line 67
+[05-Dec-2017 00:35:18 UTC] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in /home/ubuntu/workspace/final_project/index.php on line 67
+[05-Dec-2017 00:35:19 UTC] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in /home/ubuntu/workspace/final_project/index.php on line 67
+[05-Dec-2017 02:31:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/final_project/editProduct.php on line 44
+[05-Dec-2017 02:31:10 UTC] PHP Stack trace:
+[05-Dec-2017 02:31:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/editProduct.php:0
+[05-Dec-2017 02:32:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/final_project/editProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(43): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 43
+[05-Dec-2017 02:32:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/final_project/editProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(43): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 43
+[05-Dec-2017 02:32:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '90'
+                price = '41.95'
+                img = 'https://m' at line 4' in /home/ubuntu/workspace/final_project/editProduct.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(44): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 44
+[05-Dec-2017 02:32:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '90'
+                price = '41.95'
+                img = 'https://m' at line 4' in /home/ubuntu/workspace/final_project/editProduct.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(44): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 44
+[05-Dec-2017 02:33:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '90'
+                price = '41.95'
+                img = 'https://m' at line 4' in /home/ubuntu/workspace/final_project/editProduct.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(44): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 44
+[05-Dec-2017 02:33:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '90'
+                price = '41.95'
+                img = 'https://m' at line 4' in /home/ubuntu/workspace/final_project/editProduct.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(44): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 44
+[05-Dec-2017 02:35:59 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 02:35:59 UTC] PHP Stack trace:
+[05-Dec-2017 02:35:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/editProduct.php:0
+[05-Dec-2017 02:36:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 02:36:57 UTC] PHP Stack trace:
+[05-Dec-2017 02:36:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/editProduct.php:0
+[05-Dec-2017 02:37:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 02:37:05 UTC] PHP Stack trace:
+[05-Dec-2017 02:37:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/editProduct.php:0
+[05-Dec-2017 02:38:47 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/final_project/editProduct.php on line 43
+[05-Dec-2017 02:38:47 UTC] PHP Stack trace:
+[05-Dec-2017 02:38:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/editProduct.php:0
+[05-Dec-2017 02:38:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/final_project/editProduct.php on line 43
+[05-Dec-2017 02:38:48 UTC] PHP Stack trace:
+[05-Dec-2017 02:38:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/editProduct.php:0
+[05-Dec-2017 02:38:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/final_project/editProduct.php on line 43
+[05-Dec-2017 02:38:51 UTC] PHP Stack trace:
+[05-Dec-2017 02:38:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/editProduct.php:0
+[05-Dec-2017 02:38:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/final_project/editProduct.php on line 43
+[05-Dec-2017 02:38:57 UTC] PHP Stack trace:
+[05-Dec-2017 02:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/editProduct.php:0
+[05-Dec-2017 02:41:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '56'
+                price = '99.00'
+                img = 'https://m' at line 4' in /home/ubuntu/workspace/final_project/editProduct.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(44): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 44
+[05-Dec-2017 02:42:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '56'
+                price = '99.00'
+                img = 'https://m' at line 4' in /home/ubuntu/workspace/final_project/editProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 02:42:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '56'
+                price = '99.00'
+                img = 'https://m' at line 4' in /home/ubuntu/workspace/final_project/editProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 02:47:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.products' doesn't exist' in /home/ubuntu/workspace/final_project/editProduct.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(18): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/editProduct.php(45): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 18
+[05-Dec-2017 02:53:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '56'
+                price = '99.00'
+                img = 'https://m' at line 3' in /home/ubuntu/workspace/final_project/editProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 02:54:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '56'
+                price = '99.00'
+                img = 'https://m' at line 3' in /home/ubuntu/workspace/final_project/editProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 02:56:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '56'
+                price = '99.00'
+                img = 'https://m' at line 3' in /home/ubuntu/workspace/final_project/editProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 02:56:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '90'
+                price = '41.95'
+                img = 'https://m' at line 3' in /home/ubuntu/workspace/final_project/editProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 02:58:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '90'
+                price = '41.95'
+                img = 'https://m' at line 3' in /home/ubuntu/workspace/final_project/editProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 02:58:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '90'
+                price = '41.95'
+                img = 'https://m' at line 3' in /home/ubuntu/workspace/final_project/editProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 03:00:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '90'
+                price = '41.95'
+                img = 'https://m' at line 3' in /home/ubuntu/workspace/final_project/editProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 03:03:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quantity = '90'
+                price = '41.95'
+                img = 'https://m' at line 3' in /home/ubuntu/workspace/final_project/editProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 03:04:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE productID = '14'' at line 7' in /home/ubuntu/workspace/final_project/editProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 03:04:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE productID = '14'' at line 7' in /home/ubuntu/workspace/final_project/editProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editProduct.php on line 42
+[05-Dec-2017 03:42:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/final_project/editCustomer.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/editCustomer.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final_project/editCustomer.php on line 45
+[05-Dec-2017 03:44:55 UTC] PHP Fatal error:  Call to undefined function productList() in /home/ubuntu/workspace/final_project/orders.php on line 74
+[05-Dec-2017 03:44:55 UTC] PHP Stack trace:
+[05-Dec-2017 03:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 04:09:10 UTC] PHP Fatal error:  Call to undefined function getOrderList() in /home/ubuntu/workspace/final_project/orders.php on line 77
+[05-Dec-2017 04:09:10 UTC] PHP Stack trace:
+[05-Dec-2017 04:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 04:09:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'quantity' in field list is ambiguous' in /home/ubuntu/workspace/final_project/orders.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/orders.php(27): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/orders.php(77): getOrderList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/orders.php on line 27
+[05-Dec-2017 04:14:59 UTC] PHP Fatal error:  Call to undefined function getOrderList() in /home/ubuntu/workspace/final_project/orders.php on line 77
+[05-Dec-2017 04:14:59 UTC] PHP Stack trace:
+[05-Dec-2017 04:14:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 04:14:59 UTC] PHP Fatal error:  Call to undefined function getOrderList() in /home/ubuntu/workspace/final_project/orders.php on line 77
+[05-Dec-2017 04:14:59 UTC] PHP Stack trace:
+[05-Dec-2017 04:14:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 04:15:00 UTC] PHP Fatal error:  Call to undefined function getOrderList() in /home/ubuntu/workspace/final_project/orders.php on line 77
+[05-Dec-2017 04:15:00 UTC] PHP Stack trace:
+[05-Dec-2017 04:15:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 04:15:01 UTC] PHP Fatal error:  Call to undefined function getOrderList() in /home/ubuntu/workspace/final_project/orders.php on line 77
+[05-Dec-2017 04:15:01 UTC] PHP Stack trace:
+[05-Dec-2017 04:15:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 04:15:26 UTC] PHP Fatal error:  Call to undefined function getOrderList() in /home/ubuntu/workspace/final_project/orders.php on line 77
+[05-Dec-2017 04:15:26 UTC] PHP Stack trace:
+[05-Dec-2017 04:15:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 04:15:43 UTC] PHP Fatal error:  Call to undefined function getOrderList() in /home/ubuntu/workspace/final_project/orders.php on line 77
+[05-Dec-2017 04:15:43 UTC] PHP Stack trace:
+[05-Dec-2017 04:15:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 04:18:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/final_project/orders.php on line 82
+[05-Dec-2017 04:18:26 UTC] PHP Stack trace:
+[05-Dec-2017 04:18:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 04:24:51 UTC] PHP Fatal error:  Call to undefined function getOrderList() in /home/ubuntu/workspace/final_project/orders.php on line 83
+[05-Dec-2017 04:24:51 UTC] PHP Stack trace:
+[05-Dec-2017 04:24:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 04:24:54 UTC] PHP Fatal error:  Call to undefined function getOrderList() in /home/ubuntu/workspace/final_project/orders.php on line 83
+[05-Dec-2017 04:24:54 UTC] PHP Stack trace:
+[05-Dec-2017 04:24:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 04:26:48 UTC] PHP Fatal error:  Call to undefined function getOrderList() in /home/ubuntu/workspace/final_project/orders.php on line 83
+[05-Dec-2017 04:26:48 UTC] PHP Stack trace:
+[05-Dec-2017 04:26:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 04:26:53 UTC] PHP Fatal error:  Call to undefined function getOrderList() in /home/ubuntu/workspace/final_project/orders.php on line 83
+[05-Dec-2017 04:26:53 UTC] PHP Stack trace:
+[05-Dec-2017 04:26:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:33 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:33 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'lastName' in /home/ubuntu/workspace/final_project/customers.php on line 74
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'firstName' in /home/ubuntu/workspace/final_project/customers.php on line 75
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'address' in /home/ubuntu/workspace/final_project/customers.php on line 76
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'city' in /home/ubuntu/workspace/final_project/customers.php on line 77
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'zip' in /home/ubuntu/workspace/final_project/customers.php on line 78
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'country' in /home/ubuntu/workspace/final_project/customers.php on line 79
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'phone' in /home/ubuntu/workspace/final_project/customers.php on line 80
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'orderID' in /home/ubuntu/workspace/final_project/customers.php on line 81
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:50:34 UTC] PHP Warning:  Illegal string offset 'customerID' in /home/ubuntu/workspace/final_project/customers.php on line 83
+[05-Dec-2017 04:50:34 UTC] PHP Stack trace:
+[05-Dec-2017 04:50:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/customers.php:0
+[05-Dec-2017 04:51:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ON orders.customerID = customers.customerID
+            ORDER BY customers.custo' at line 4' in /home/ubuntu/workspace/final_project/customers.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/customers.php(18): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/customers.php(71): customerList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/customers.php on line 18
+[05-Dec-2017 04:51:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ON orders.customerID = customers.customerID
+            ORDER BY customers.custo' at line 4' in /home/ubuntu/workspace/final_project/customers.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/customers.php(18): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/customers.php(71): customerList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/customers.php on line 18
+[05-Dec-2017 05:05:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'class=' at line 13' in /home/ubuntu/workspace/final_project/orders.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/orders.php(28): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/orders.php(33): getOrderList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/orders.php on line 28
+[05-Dec-2017 05:07:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'customerID' in where clause is ambiguous' in /home/ubuntu/workspace/final_project/orders.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/orders.php(29): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/final_project/orders.php(34): getOrderList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/orders.php on line 29
+[05-Dec-2017 05:11:13 UTC] PHP Warning:  include(nav.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/final_project/orders.php on line 52
+[05-Dec-2017 05:11:13 UTC] PHP Stack trace:
+[05-Dec-2017 05:11:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 05:11:13 UTC] PHP Warning:  include(): Failed opening 'nav.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/final_project/orders.php on line 52
+[05-Dec-2017 05:11:13 UTC] PHP Stack trace:
+[05-Dec-2017 05:11:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/final_project/orders.php:0
+[05-Dec-2017 05:23:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price' in 'field list'' in /home/ubuntu/workspace/final_project/reports.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/reports.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/reports.php(50): customerList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/reports.php on line 17
+[05-Dec-2017 05:26:45 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING) in /home/ubuntu/workspace/final_project/reports.php on line 60
+[05-Dec-2017 05:26:59 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING) in /home/ubuntu/workspace/final_project/reports.php on line 60
+[05-Dec-2017 15:35:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING) in /home/ubuntu/workspace/final_project/reports.php on line 60
+[05-Dec-2017 15:36:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING) in /home/ubuntu/workspace/final_project/reports.php on line 59
+[05-Dec-2017 15:36:07 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING) in /home/ubuntu/workspace/final_project/reports.php on line 59
+[05-Dec-2017 15:36:09 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING) in /home/ubuntu/workspace/final_project/reports.php on line 59
+[05-Dec-2017 15:36:22 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING) in /home/ubuntu/workspace/final_project/reports.php on line 60
+[05-Dec-2017 15:36:23 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING) in /home/ubuntu/workspace/final_project/reports.php on line 60
+[05-Dec-2017 15:36:36 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING) in /home/ubuntu/workspace/final_project/reports.php on line 60
+[05-Dec-2017 15:36:37 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING) in /home/ubuntu/workspace/final_project/reports.php on line 60
+[05-Dec-2017 15:36:38 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING) in /home/ubuntu/workspace/final_project/reports.php on line 60
+[05-Dec-2017 15:36:42 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING) in /home/ubuntu/workspace/final_project/reports.php on line 60
+[05-Dec-2017 15:36:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+                orders
+            INNER JOIN
+                customers ON ' at line 3' in /home/ubuntu/workspace/final_project/reports.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/reports.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/reports.php(55): customerList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/reports.php on line 23
+[05-Dec-2017 15:37:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+                orders
+            INNER JOIN
+                customers ON ' at line 3' in /home/ubuntu/workspace/final_project/reports.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/reports.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/reports.php(55): customerList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/reports.php on line 23
+[05-Dec-2017 15:37:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+                orders
+            INNER JOIN
+                customers ON ' at line 3' in /home/ubuntu/workspace/final_project/reports.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/reports.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/reports.php(55): customerList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/reports.php on line 23
+[05-Dec-2017 15:37:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+                orders
+            INNER JOIN
+                customers ON ' at line 3' in /home/ubuntu/workspace/final_project/reports.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/reports.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/reports.php(55): customerList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/reports.php on line 23
+[05-Dec-2017 15:37:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+                orders
+            INNER JOIN
+                customers ON ' at line 3' in /home/ubuntu/workspace/final_project/reports.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/reports.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/reports.php(55): customerList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/reports.php on line 23
+[05-Dec-2017 15:38:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+                orders
+            INNER JOIN
+                customers ON ' at line 3' in /home/ubuntu/workspace/final_project/reports.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/reports.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/reports.php(55): customerList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/reports.php on line 23
+[05-Dec-2017 15:38:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+                orders
+            INNER JOIN
+                customers ON ' at line 3' in /home/ubuntu/workspace/final_project/reports.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/reports.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/reports.php(55): customerList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/reports.php on line 23
+[05-Dec-2017 15:38:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+                orders
+            INNER JOIN
+                customers ON ' at line 3' in /home/ubuntu/workspace/final_project/reports.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/reports.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/reports.php(55): customerList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/reports.php on line 23
+[05-Dec-2017 16:33:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/final_project/reports.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/reports.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/reports.php(57): customerList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/reports.php on line 25
+[05-Dec-2017 18:01:15 UTC] PHP Parse error:  syntax error, unexpected 'navbar' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/final_project/index.php on line 30
+[05-Dec-2017 18:01:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/final_project/index.php on line 114
+[05-Dec-2017 18:01:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/final_project/index.php on line 114

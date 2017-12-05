@@ -1,0 +1,45 @@
+body {
+    font-family: 'Encode Sans', sans-serif;
+    background-image: url('../img/back3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: gray;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    padding-top: 40px;
+    font-size: 4em;
+}
+
+.col-xs-8,
+.col-xs-10 {
+    background-color: white;
+    border: 6px solid #ddd;
+    border-style: groove;
+}
+
+th {
+    text-align: center;
+}
+
+.brand {
+    max-height: 30px;
+    max-width: 70px;
+}
+
+#addProduct {
+    float: right;
+}
+
+.productBtn {
+    margin-left: 10px;
+}
+
+#green {
+    color: green;
+}
+#red {
+    color: red;
+}
