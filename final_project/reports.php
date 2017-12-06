@@ -14,13 +14,6 @@ if (!isset($_SESSION["username"])) {
         <!-- HEADER TEMPLATE BEGIN -->
         <?php include 'templates/header.php'?>
         <!-- HEADER TEMPLATE END -->
-        <style>
-            .btn-sq-lg {
-              width: 150px !important;
-              height: 150px !important;
-              padding-top: 20px !important;
-            }
-        </style>
     </head>
     <body>
         <nav class="navbar navbar-default">

@@ -29,7 +29,7 @@ function productList() {
                 <?php
                     if(isset($_SESSION['username']) && !empty($_SESSION['username'])) {
                     echo "<div class=\"navbar-left\">
-                            <a href=\"viewAsUser.php\" class=\"btn navbar-btn productBtn\">View Page as User</a>
+                            <a href=\"viewAsVisitor.php\" class=\"btn navbar-btn productBtn\"><i class=\"fa fa-eye\"></i> View Page as Visitor</a>
                           </div>";
                     }
                 ?>

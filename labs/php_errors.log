@@ -1167,3 +1167,9 @@ Stack trace:
 #1 /home/ubuntu/workspace/labs/lab7/admin.php(70): authorList()
 #2 {main}
   thrown in /home/ubuntu/workspace/labs/lab7/admin.php on line 16
+[06-Dec-2017 00:41:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sole_mates.q_author' doesn't exist' in /home/ubuntu/workspace/labs/lab6/index.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/index.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/labs/lab6/index.php(143): displayCountryOptions()
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/index.php on line 12
