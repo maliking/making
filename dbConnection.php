@@ -1,5 +1,5 @@
 <?php
-function getDatabaseConnection($dbname="final_exam") {
+function getDatabaseConnection($dbname="sole_mates") {
     // cloud9
     $host = 'localhost';
     $username = 'root';
