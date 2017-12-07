@@ -64,6 +64,7 @@ $(document).ready( function(){
     $("#zip").change( function(){ getCity() });
     $("#state").change(function(){ getCounties() });
     $("#username").change(function(){ checkUsername() });
+    $("#username").keyup(checkUsername);
     $("#confirmPassword").change(function(){ checkPassword() });
     $("#confirmPassword").keyup(checkPassword);
 });//document.ready

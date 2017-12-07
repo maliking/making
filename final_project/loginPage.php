@@ -5,6 +5,7 @@
         <!-- HEADER TEMPLATE BEGIN -->
         <?php include 'templates/header.php'?>
         <!-- HEADER TEMPLATE END -->
+
     </head>
     <body>
         <div class="container">
