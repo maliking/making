@@ -1156,3 +1156,21 @@ Stack trace:
 #2 /home/ubuntu/workspace/final_project/index.php(74): productList()
 #3 {main}
   thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:29:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_exam.products' doesn't exist' in /home/ubuntu/workspace/final_project/index.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/index.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/index.php(74): productList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/index.php on line 12
+[11-Dec-2017 20:53:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_exam.products' doesn't exist' in /home/ubuntu/workspace/final_project/index.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/index.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/index.php(74): productList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/index.php on line 12
+[13-Dec-2017 06:41:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_exam.products' doesn't exist' in /home/ubuntu/workspace/final_project/index.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/final_project/index.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/final_project/index.php(74): productList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/final_project/index.php on line 12

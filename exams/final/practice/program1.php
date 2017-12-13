@@ -1,6 +1,4 @@
-<?php
-$re
-?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,11 +16,11 @@ $re
                 <div class="col-xs-6 col-xs-offset-3 text-center">
                 <h1>Admin Login</h1>
                 <hr>
-                <form class="form-horizontal" method="POST" action="login.php">
+                <form class="form-horizontal" method="POST" action="loginProcess.php">
                     <div class="form-group">
                         <label class="control-label col-xs-4" for="password">Username: </label>
                         <div class="col-xs-12 col-md-6">
-                            <input class="form-control" type="text" name="username">
+                            <input id="username" class="form-control" type="text" name="username">
                         </div>
                     </div>
                     <div class="form-group">
@@ -38,7 +36,9 @@ $re
                         </div>
                     </div>
                     <div class="col-xs-12">
-                        <span id="display"></span>
+                        <b>Last Login: </b><span id="lastLogin"></span>
+                        <br>
+                        <b>Last Login Attempt: </b><span id="attempt"></span>
                     </div>
                 </form>
                 </div>
@@ -47,26 +47,30 @@ $re
         <script src="../../../bootstrap/js/jquery.min.js"></script>
         <script src="../../../bootstrap/js/bootstrap.min.js"></script>
         <script>
+            /* global $ */
             function processInfo() {
                 $.ajax ({
-                    type: "POST",
+                    type: "GET",
                     url: "matchDB.php",
-                    data: { "username": $("#username").val() },
-                    dataType: 'json',
-                    success: function(data, status) {
-                        if (data == false) {
-                            alert(data[0]);
-                            // $("#display").html("<span id='green'>Last successful login: </span>" + data.username);
+                    dataType: "json",
+                    data: { "username": $("#username").val()},
+                    success: function(data) {
+                        $("#lastLogin").html(data.dateTime);
+                        var status;
+                        if (data.lastLoginStatus == 'S') {
+                            status = 'Successful';
                         } else {
-                            $("#display").html("<span id='red'>Username is already taken!</span>");
+                            status = 'Unsuccessful';
                         }
-                    },
+                        $("#attempt").html(status);
+                    }
+
                 }); // ajax
             } // checkUsername()
 
             $(document).ready( function(){
-                $("#password").change(function(){ processInfo() });
-                $("#password").keyup(processInfo);
+                $("#username").change(function(){ processInfo(); });
+                $("#username").keyup(processInfo);
             });//document.ready
         </script>
     </body>

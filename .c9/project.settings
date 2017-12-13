@@ -73,7 +73,7 @@
     },
     "run": {
         "@path": "/.c9/runners",
-        "@runner": "PHP (cli)",
+        "@runner": "PHP (built-in web server)",
         "configs": {
             "@inited": "true",
             "json()": {

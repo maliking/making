@@ -51,3 +51,289 @@ Stack trace:
 #0 /home/ubuntu/workspace/exams/final/practice/program1.php(10): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/exams/final/practice/program1.php on line 10
+[11-Dec-2017 20:20:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:20:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:22:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:22:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:22:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:22:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:22:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:23:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:23:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:23:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 20:23:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'sole_mates'' in /home/ubuntu/workspace/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/exams/final/practice/matchDB.php(3): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 17
+[11-Dec-2017 21:04:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/exams/final/practice/matchDB.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/matchDB.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/matchDB.php on line 14
+[11-Dec-2017 21:04:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/exams/final/practice/matchDB.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/matchDB.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/matchDB.php on line 14
+[11-Dec-2017 21:04:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/exams/final/practice/matchDB.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/matchDB.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/matchDB.php on line 14
+[11-Dec-2017 21:04:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/exams/final/practice/matchDB.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/matchDB.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/matchDB.php on line 14
+[11-Dec-2017 21:36:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/exams/final/practice/matchDB.php on line 18
+[11-Dec-2017 21:36:24 UTC] PHP Stack trace:
+[11-Dec-2017 21:36:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB.php:0
+[11-Dec-2017 21:36:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/exams/final/practice/matchDB.php on line 18
+[11-Dec-2017 21:36:24 UTC] PHP Stack trace:
+[11-Dec-2017 21:36:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB.php:0
+[11-Dec-2017 21:36:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/exams/final/practice/matchDB.php on line 18
+[11-Dec-2017 21:36:24 UTC] PHP Stack trace:
+[11-Dec-2017 21:36:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB.php:0
+[11-Dec-2017 21:36:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/exams/final/practice/matchDB.php on line 18
+[11-Dec-2017 21:36:24 UTC] PHP Stack trace:
+[11-Dec-2017 21:36:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB.php:0
+[11-Dec-2017 21:36:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/exams/final/practice/matchDB.php on line 18
+[11-Dec-2017 21:36:32 UTC] PHP Stack trace:
+[11-Dec-2017 21:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB.php:0
+[11-Dec-2017 22:26:23 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/exams/final/practice/matchDB.php on line 5
+[11-Dec-2017 22:35:45 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 5
+[11-Dec-2017 22:35:45 UTC] PHP Stack trace:
+[11-Dec-2017 22:35:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:35:45 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:5
+[11-Dec-2017 22:35:45 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 5
+[11-Dec-2017 22:35:45 UTC] PHP Stack trace:
+[11-Dec-2017 22:35:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:35:45 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:5
+[11-Dec-2017 22:36:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT *
+          FROM fp_login
+         WHERE username = 'bob'
+         AND pa' at line 2' in /home/ubuntu/workspace/exams/final/practice/matchDB2.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/matchDB2.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 16
+[11-Dec-2017 22:36:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT *
+          FROM fp_login
+         WHERE username = NULL
+         AND pas' at line 2' in /home/ubuntu/workspace/exams/final/practice/matchDB2.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/matchDB2.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 16
+[11-Dec-2017 22:36:39 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 5
+[11-Dec-2017 22:36:39 UTC] PHP Stack trace:
+[11-Dec-2017 22:36:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:36:39 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:5
+[11-Dec-2017 22:36:39 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 5
+[11-Dec-2017 22:36:39 UTC] PHP Stack trace:
+[11-Dec-2017 22:36:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:36:39 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:5
+[11-Dec-2017 22:37:03 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 5
+[11-Dec-2017 22:37:03 UTC] PHP Stack trace:
+[11-Dec-2017 22:37:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:37:03 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:5
+[11-Dec-2017 22:37:03 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 5
+[11-Dec-2017 22:37:03 UTC] PHP Stack trace:
+[11-Dec-2017 22:37:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:37:03 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:5
+[11-Dec-2017 22:37:04 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 5
+[11-Dec-2017 22:37:04 UTC] PHP Stack trace:
+[11-Dec-2017 22:37:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:37:04 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:5
+[11-Dec-2017 22:37:04 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 5
+[11-Dec-2017 22:37:04 UTC] PHP Stack trace:
+[11-Dec-2017 22:37:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:37:04 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:5
+[11-Dec-2017 22:37:05 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 5
+[11-Dec-2017 22:37:05 UTC] PHP Stack trace:
+[11-Dec-2017 22:37:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:37:05 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:5
+[11-Dec-2017 22:37:05 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 5
+[11-Dec-2017 22:37:05 UTC] PHP Stack trace:
+[11-Dec-2017 22:37:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:37:05 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:5
+[11-Dec-2017 22:37:57 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 9
+[11-Dec-2017 22:37:57 UTC] PHP Stack trace:
+[11-Dec-2017 22:37:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:37:57 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:9
+[11-Dec-2017 22:37:57 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 9
+[11-Dec-2017 22:37:57 UTC] PHP Stack trace:
+[11-Dec-2017 22:37:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:37:57 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:9
+[11-Dec-2017 22:38:28 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 18
+[11-Dec-2017 22:38:28 UTC] PHP Stack trace:
+[11-Dec-2017 22:38:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:38:28 UTC] PHP   2. utf8_encode() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:18
+[11-Dec-2017 22:38:31 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 18
+[11-Dec-2017 22:38:31 UTC] PHP Stack trace:
+[11-Dec-2017 22:38:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:38:31 UTC] PHP   2. utf8_encode() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:18
+[11-Dec-2017 22:38:51 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 18
+[11-Dec-2017 22:38:51 UTC] PHP Stack trace:
+[11-Dec-2017 22:38:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:38:51 UTC] PHP   2. utf8_encode() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:18
+[11-Dec-2017 22:38:52 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/exams/final/practice/matchDB2.php on line 18
+[11-Dec-2017 22:38:52 UTC] PHP Stack trace:
+[11-Dec-2017 22:38:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:0
+[11-Dec-2017 22:38:52 UTC] PHP   2. utf8_encode() /home/ubuntu/workspace/exams/final/practice/matchDB2.php:18
+[12-Dec-2017 01:00:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/exams/final/practice/loginProcess.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/loginProcess.php(22): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/loginProcess.php on line 22
+[12-Dec-2017 01:04:21 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/exams/final/practice/loginProcess.php on line 26
+[12-Dec-2017 01:04:21 UTC] PHP Stack trace:
+[12-Dec-2017 01:04:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/practice/loginProcess.php:0
+[12-Dec-2017 01:12:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/exams/final/practice/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/loginProcess.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/loginProcess.php on line 35
+[12-Dec-2017 01:12:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(lastLogin)
+            SET lastLogin = CURRENT_TIMESTAMP
+            WHERE user' at line 1' in /home/ubuntu/workspace/exams/final/practice/loginProcess.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/loginProcess.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/loginProcess.php on line 36

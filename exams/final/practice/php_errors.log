@@ -1,0 +1,41 @@
+[12-Dec-2017 15:03:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php on line 33
+[12-Dec-2017 15:05:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php on line 33
+[12-Dec-2017 15:08:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php on line 33
+[12-Dec-2017 15:11:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php on line 34
+[12-Dec-2017 15:17:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'markiepeanut@gmail.com' for key 'email'' in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php on line 33
+[12-Dec-2017 15:19:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'markiepeanut@gmail.com' for key 'email'' in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php on line 33
+[12-Dec-2017 15:37:27 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php on line 33
+[12-Dec-2017 15:41:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php(38): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php on line 38
+[12-Dec-2017 15:42:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php(38): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/practice/program2/insertScores.php on line 38

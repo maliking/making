@@ -26,6 +26,8 @@
                             <input class="form-control" type="password" name="password">
                         </div>
                     </div>
+                    <p>Username: admin</p>
+                    <p>Password: secret</p>
                     <hr>
                     <div class="form-group">
                         <div class="col-xs-12 col-md-8 col-md-offset-2">
